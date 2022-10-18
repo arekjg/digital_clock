@@ -47,9 +47,9 @@ namespace digital_clock
             this.label_time.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.label_time.Location = new System.Drawing.Point(12, 9);
             this.label_time.Name = "label_time";
-            this.label_time.Size = new System.Drawing.Size(293, 68);
+            this.label_time.Size = new System.Drawing.Size(322, 68);
             this.label_time.TabIndex = 0;
-            this.label_time.Text = DateTime.Now.ToString("HH:mm:ss tt");
+            this.label_time.Text = "22:00:21 ";
             this.label_time.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Form1
@@ -60,6 +60,7 @@ namespace digital_clock
             this.ClientSize = new System.Drawing.Size(309, 82);
             this.Controls.Add(this.label_time);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "CLOCK";
             this.ResumeLayout(false);
